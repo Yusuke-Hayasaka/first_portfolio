@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">
+  <meta property='og:type' content='website'>
+  <meta property='og:title' content='Yusuke Hayasaka ポートフォリオ'>
+  <meta property='og:url' content='URLが入る'>
+  <meta property='og:description' content='Yusuke Hayasakaのポートフォリオサイトです！'>
+  <meta property="og:image" content="img/ogp.png">
+  <meta name="description" content="Yusuke Hayasakaのポートフォリオサイトです！" />
+  <title>Yusuke's portfolio</title>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:700" rel="stylesheet">
+  <link href="css/reset.css" media="all" rel="stylesheet" type="text/css" />
+  <link href="css/photoswipe/photoswipe.css" media="all" rel="stylesheet" type="text/css" />
+  <link href="css/photoswipe/default-skin/default-skin.css" media="all" rel="stylesheet" type="text/css" />
+  <link href="css/style.css" media="all" rel="stylesheet" type="text/css" />
+  <link rel="shortcut icon" href="img/favicon_y.ico" />
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+  <div class="wrapper">
+
+    <!-- .gnav -->
+    <nav class="gnav" class="fixed">
+      <ul class="gnav-list">
+        <li class="gnav-item">
+          <span class="fa fa-user"></span>
+          <a class="gnav-link" href="#about-section">ABOUT</a></li>
+        <li class="gnav-item">
+          <span class="fa fa-briefcase"></span>
+          <a class="gnav-link" href="#works-section">WORKS</a></li>
+        <!-- <li class="gnav-item"><a class="gnav-link" href="#feature-section">FEATURE</a></li> -->
+        <li class="gnav-item">
+          <span class="fa fa-check-circle"></span>
+          <a class="gnav-link" href="#skill-section">SKILL</a></li>
+        <li class="gnav-item">
+          <span class="fa fa-envelope"></span>
+          <a class="gnav-link" href="#contact-section">CONTACT</a></li>
+      </ul>
+    </nav>
+    <!-- /.gnav -->
+
+    <!-- .header -->
+    <header class="header">
+      <div class="bgImg src1"></div>
+        <div class="bgImg src2"></div>
+        <div class="bgImg src3"></div>
+        <div class="bgImg src4"></div>
+        <div class="bgImg src5"></div>
+      <h1 class="logo">
+        <div class="logo-name">Yusuke Hayasaka's</div>
+        <div class="logo-title">PORTFOLIO</div>
+        <div class="logo-subtitle">Desinger & Engineer</div>
+      </h1>
+    </header>
+    <!-- /.header -->
+
+    <main class="content">
+
+      <!-- .about-section -->
+      <section class="about-section section" id="about-section">
+        <div class="inner">
+          <div class="section-heading">
+            <h2 class="heading-primary"><span class="fa fa-user"></span> ABOUT</h2>
+          </div>
+          <div class="section-lead">
+            <p>
+              <!-- Profile -->
+            </p>
+          </div>
+          <div class="section-body about">
+            <div class="about-item">
+              <div class="about-image-wrapper">
+                <img class="about-image lazyload fadein" data-src="img/about/animal_kuma.png" alt="">
+              </div>
+              <div class="about-body">
+                <p>
+                  早坂 雄介<br><br>1996年　群馬県出身 / 神奈川県在住<br>青山学院大学 大学院在学<br>趣味：楽曲制作とファッション
+                </p>
+                <p>
+                  　大学では機械工学を専攻していましたが、必修の情報処理でC++を学び、プログラミングに興味を持ちました。<br>
+                  　現在はバックエンド系エンジニアになることを目標に掲げ、日々学習しています。
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- /.about-section -->
+
+     <!-- .works-section -->
+     <section class="works-section section" id="works-section">
+      <div class="inner">
+        <div class="section-heading">
+          <h2 class="heading-primary"><span class="fa fa-briefcase"></span> WORKS</h2>
+        </div>
+        <div class="section-lead">
+          <!-- <p>Web（デザインとコーディング）制作の記録です。<br>デザイン練習用の架空サイト（ファーストビューのみ）も含んでおります。</p> -->
+        </div>
+        <div class="section-body works">
+          <div class="works-list js-my-gallery">
+            <figure class="works-item">
+              <a href="img/works/portfolio.png" data-size="960x720" class="works-image-wrapper works-link hover-action">
+                <img class="works-image lazyload fadein" src="img/placeholder4x3.png" data-src="img/works/portfolio.png"
+                  alt="" />
+              </a>
+              <figcaption class="works-body">
+                <div class="works-title">Portfolio</div>
+                <div class="works-info">自身のポートフォリオサイトです</div>
+                <div class="works-text">HTML / CSS </div>
+                <div class="works-url"><a class="works-url-link" href="https://github.com/yusuke-o-t-a/first_portfolio" target="_blank">Github</a>
+                </div>
+              </figcaption>
+            </figure>
+            <figure class="works-item">
+              <a href="img/works/SharM.jpeg" data-size="960x720"
+                class="works-image-wrapper works-link hover-action">
+                <img class="works-image lazyload fadein" src="img/placeholder4x3.png"
+                  data-src="img/works/SharM.jpeg" alt="" />
+              </a>
+              <figcaption class="works-body">
+                <div class="works-title">SharM</div>
+                <div class="works-info">楽曲共有サイトです<br>ログイン、投稿、いいね、画像アップロード機能</div>
+                <div class="works-text">HTML / CSS /Ruby / Rails</div>
+                <div class="works-url"><a class="works-url-link" href="https://github.com/yusuke-o-t-a/SharM_app" target="_blank">Github</a>
+                </div>
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /.works-section -->
+
+      <!-- .skill-section -->
+      <section class="skill-section section" id="skill-section">
+        <div class="inner">
+          <div class="section-heading">
+            <h2 class="heading-primary"><span class="fa fa-check-circle"></span> SKILL</h2>
+          </div>
+          <div class="section-lead">
+            <p>
+              実務未経験ですが熱意は誰にも負けません！
+            </p>
+          </div>
+          <div class="section-body skill">
+            <div class="skill-list">
+              <div class="skill-item">
+                <div class="skill-image-wrapper">
+                  <img class="skill-image" src="img/skill/html5.png" alt="HTMLのアイコン">
+                </div>
+                <div class="skill-body">
+                  <h3 class="skill-title">HTML5</h3>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-image-wrapper-css">
+                  <img class="skill-image" src="img/skill/css3-alt-brands.svg" alt="CSSのアイコン">
+                </div>
+                <div class="skill-body">
+                  <h3 class="skill-title">CSS</h3>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-image-wrapper">
+                  <img class="skill-image" src="img/skill/icons8-ruby-gemstone-96.png" alt="Rubyのアイコン">
+                </div>
+                <div class="skill-body">
+                  <h3 class="skill-title">Ruby</h3>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-image-wrapper">
+                  <img class="skill-image" src="img/skill/iconfinder_Ruby_on_Rails_2_282804.svg" alt="Railsのアイコン">
+                </div>
+                <div class="skill-body">
+                  <h3 class="skill-title">Ruby on Rails</h3>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-image-wrapper">
+                  <img class="skill-image" src="img/skill/icons8-c++-150.png" alt="C++のアイコン"/>
+                </div>
+                <div class="skill-body">
+                  <h3 class="skill-title">C++</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- /.skill-section -->
+
+      <!-- .contact-section -->
+      <section class="contact-section section" id="contact-section">
+        <div class="inner">
+          <div class="section-heading">
+            <h2 class="heading-primary"><span class="fa fa-envelope"></span> CONTACT</h2>
+          </div>
+          <div class="section-lead">
+            <p>
+              何かありましたら、<br class="sp-only">Twitterにご連絡ください。
+            </p>
+          </div>
+          <div class="section-body contact">
+            <ul class="contact-list">
+              <li class="contact-item">
+                <a class="contact-link" href="https://twitter.com/" target="_blank"><img class="contact-image"
+                    src="img/contact/icon_tw.png" alt=""></a>
+                    <a class="contact-url-link" href="https://twitter.com/yusuke_ota_328" target="_blank">Twitter</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <!-- /.contact-section -->
+
+    </main>
+
+    <!-- .footer -->
+    <footer class="footer">
+      <div class="page-top" id="js-page-top">
+        トップへもどる
+      </div>
+      <div class="inner">
+        <div class="copyright">Copyright&copy;Yusuke Hayasaka. All Rights Reserved.</div>
+      </div>
+    </footer>
+    <!-- /.footer -->
+
+  </div>
+
+  <!-- 下記はPhotoswipeプラグイン用 -->
+  <!-- Root element of PhotoSwipe. Must have class pswp. -->
+  <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    <!-- Background of PhotoSwipe.
+       It's a separate element as animating opacity is faster than rgba(). -->
+    <div class="pswp__bg"></div>
+
+    <!-- Slides wrapper with overflow:hidden. -->
+    <div class="pswp__scroll-wrap">
+
+      <!-- Container that holds slides.
+          PhotoSwipe keeps only 3 of them in the DOM to save memory.
+          Don't modify these 3 pswp__item elements, data is added later on. -->
+      <div class="pswp__container">
+        <div class="pswp__item"></div>
+        <div class="pswp__item"></div>
+        <div class="pswp__item"></div>
+      </div>
+
+      <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+      <div class="pswp__ui pswp__ui--hidden">
+
+        <div class="pswp__top-bar">
+
+          <!--  Controls are self-explanatory. Order can be changed. -->
+
+          <div class="pswp__counter"></div>
+
+          <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+          <button class="pswp__button pswp__button--share" title="Share"></button>
+
+          <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+          <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+          <!-- Preloader demo https://codepen.io/dimsemenov/pen/yyBWoR -->
+          <!-- element will get class pswp__preloader--active when preloader is running -->
+          <div class="pswp__preloader">
+            <div class="pswp__preloader__icn">
+              <div class="pswp__preloader__cut">
+                <div class="pswp__preloader__donut"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+          <div class="pswp__share-tooltip"></div>
+        </div>
+
+        <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+        </button>
+
+        <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+        </button>
+
+        <div class="pswp__caption">
+          <div class="pswp__caption__center"></div>
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script type='text/javascript' src="js/photoswipe/photoswipe.min.js"></script>
+  <script type='text/javascript' src="js/photoswipe/photoswipe-ui-default.js"></script>
+  <script type='text/javascript' src="js/photoswipe/photoswipe-setup.js"></script>
+  <script type='text/javascript' src="js/lazysizes/lazysizes.min.js"></script>
+  <script type='text/javascript' src="js/script.js"></script>
+</body>
+</html>
