@@ -135,12 +135,14 @@ li {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center; 
+  background-attachment: fixed;
 }
 .header .src2 {
   background-image : url("../img/header/header-img04.jpg"); 
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center;  
+  background-position: center; 
+  background-attachment: fixed; 
   animation-delay  : 5s;
 }
 .header .src3 {
@@ -148,6 +150,7 @@ li {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  background-attachment: fixed;
   animation-delay  : 10s;
 }
 .header .src4 {
@@ -155,6 +158,7 @@ li {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  background-attachment: fixed;
   animation-delay  : 15s;
 }
 .header .src5 {
@@ -162,6 +166,7 @@ li {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  background-attachment: fixed;
   animation-delay  : 20s;
 }
 
